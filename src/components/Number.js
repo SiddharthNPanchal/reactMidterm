@@ -6,7 +6,7 @@ function Number(props){
     let [clickState,setClickState] = useState(false)
     
     useEffect(()=>{
-         if(clickState==+false){
+         if(clickState==false){
             setCurrentState(" borderNormal")
         }
         else
